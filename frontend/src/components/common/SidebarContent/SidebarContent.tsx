@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 export const SidebarContent = styled.aside`
   padding: 1rem;
   background-color: #c4d885;
+
   // enable scrolling within the sidebar if content overflows
   overflow: auto;
   box-sizing: border-box;
@@ -38,5 +39,24 @@ export const SidebarContent = styled.aside`
   // field labels
   label {
     font-size: 0.875rem;
+  }
+
+  .selection-info {
+    font-size: 0.875rem;
+    margin: 0.5rem 0;
+    color: var(--color-text-secondary);
+  }
+  .comparison-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    label {
+      font-weight: 600;
+    }
   }
 `;
