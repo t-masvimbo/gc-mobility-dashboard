@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const SidebarContent = styled.aside`
   padding: 1rem;
-
+  background-color: #c4d885;
   // enable scrolling within the sidebar if content overflows
   overflow: auto;
   box-sizing: border-box;
@@ -19,7 +19,7 @@ export const SidebarContent = styled.aside`
     position: sticky;
     margin: -1rem;
     top: -1rem;
-    background-color: var(--sidebar-background-color, white);
+    background-color: #c4d885;
     padding: 1.25rem 1rem 0.5rem;
     border-radius: var(--surface-radius) var(--surface-radius) 0 0;
   }
